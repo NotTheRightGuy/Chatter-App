@@ -10,7 +10,7 @@ class LoadingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Timer(const Duration(seconds: 1), () async {
+    Timer(const Duration(seconds: 2), () async {
       if (Auth().currentUser == null) {
         Navigator.pushReplacementNamed(context, "/login");
       } else {

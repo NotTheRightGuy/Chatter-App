@@ -24,7 +24,7 @@ List<Message> messages = [];
 
 class _ChatRoomScreenState extends State<ChatRoomScreen> {
   User get user => widget.user;
-  String uri = "https://chatter-server.talkingaboutabout.repl.co";
+  String uri = "https://chatter-server-pd76.onrender.com/";
   String chatRoomName = "Existential Crisis";
   String chatRoomId = "XXX420";
 
